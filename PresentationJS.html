@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+
+		<title>PresentationJS 0.1</title>
+
+		<style>
+			/*GLOBAL*/
+			body {
+				height: 100%;
+				font-size: 14px;
+				line-height: 1.42857;
+				color: #333;
+
+				font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+			}
+			#container {
+				width: 870px;
+				margin-left: auto;
+				margin-right: auto;
+				left: 0;
+				right: 0;
+				position: absolute;
+			}
+
+
+			/*MENU*/
+			#menu {
+				border-bottom: 1px solid #E5E5E5;
+				margin-bottom: 30px;
+			}
+
+			#menu h3 {
+				line-height: 40px;
+
+				font-size: 24px;
+				font-family: inherit;
+				font-weight: 500;
+				text-decoration: none;
+				color: #666;
+			}
+
+			.menu-items {
+				margin-top: 0px;
+				margin-bottom: 0px;
+			}
+
+			.menu-items li {
+				position: relative;
+				display: block;
+
+				float: left;
+				list-style: outside none none;
+			}
+			.menu-items li + li {
+				margin-left: 14px;
+			}
+
+			.menu-items li a {
+				position: relative;
+				display: block;
+				padding: 10px 15px;
+
+				color: #337AB7;
+				text-decoration: none;
+				border-radius: 4px;
+			}
+			.menu-items li a:hover, .menu-items li a:focus {
+				background-color: #EEE;
+			}
+
+
+			.pull-right {
+				float: right !important;
+			}
+
+
+			/*SLIDES*/
+			#slide {
+				background-color: #EEE;
+				border-radius: 6px;
+				height: 450px;
+				position: relative;
+			}
+		</style>
+
+		<script>
+		</script>
+	</head>
+
+	<body>
+
+		<div id="container">
+
+			<div id="menu">
+				<ul class="menu-items pull-right">
+					<li><a href="#" id="overview">Overview</a></li>
+					<li><a href="#" id="usage">Usage</a></li>
+					<li><a href="#" id="plans">Plans</a></li>
+					<li><a href="#" id="thank_you">Thank you</a></li>
+				</ul>
+
+				<h3>PresentationJS</h3>
+			</div>
+			
+			<div id="content" style="padding-top: 50px;">
+				<div id="slide">
+					<div style="position: absolute; left: 120px; top: 166px; font-size: 75px; font-weight: bold;">SLIDE CONTENT!</div>
+				</div>
+			</div>
+
+		</div>
+
+	</body>
+</html>
